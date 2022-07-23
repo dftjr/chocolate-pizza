@@ -1,1 +1,119 @@
+html {
+  display:flex;
+  margin: auto;
+}
 
+header {
+  height: 100px;
+  background-color: rgba(106, 75, 75, 0.706);
+  justify-content: right;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  top: 25px;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  left: 710px;
+  top: 25px;
+  gap: 2px;
+}
+
+.wifi {
+  margin-left: 10px;
+}
+
+figure img {
+  width: 100%;
+}
+
+.brand {
+  flex-direction: row;
+  position: relative;
+  left: 50px;
+  bottom: 45px;
+}
+
+article {
+  flex: auto;
+  width: 710px;
+  justify-content: center
+}
+
+body {
+  flex-direction: column;
+  margin: auto;
+}
+
+main {
+  flex-direction: column;
+  width:710px;
+
+}
+
+
+
+.hero {
+  display: inline-flex;
+  width: 710px;
+}
+
+section {
+  display: inline-flex;
+  gap: 30px;
+  width: 710px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}  
+
+selction img {
+  width: 100%;
+}
+
+ul {
+  width: 900px;
+  height: 300px;
+  margin-top: 30px;
+  position: absolute;
+  flex-direction: column;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+ul:nth-child(2) {
+  position: absolute;
+  left:700px;
+}
+
+ul li {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+footer {
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+footer img {
+  position: relative;
+  left: 50%;
+}
+
+footer p {
+  position: relative;
+  align-self: center;
+  left: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
