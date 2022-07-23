@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Noto+Serif&family=Patrick+Hand');
+
+main div:first-of-type p:first-of-type{
+  font: 32px Oswald;
+}
+main div:first-of-type p:last-of-type{
+  font: 14px Oswald;
+}
+
+
 html {
   display:flex;
   margin: auto;
+   font-family: 'Noto Serif';
 }
 
 header {
